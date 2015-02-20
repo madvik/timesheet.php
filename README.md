@@ -3,7 +3,7 @@
 Simple PHP class to create HTML time sheets. This is largely inspired by [Timesheet.js](https://sbstjn.github.io/timesheet.js).
 Timesheet.php is licensed under GPLV3 License.
 
-![https://madvik.github.io/timesheet.php](https://raw.githubusercontent.com/madvik/timesheet.php/master/screen.png)
+![https://madvik.github.io/timesheet.php](https://raw.githubusercontent.com/madvik/timesheet.php/master/screenshot.png)
 
 ## Features
 
