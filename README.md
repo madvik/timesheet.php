@@ -109,7 +109,7 @@ $data = array(
                     array('start' => ...
 ```
 
-For more information, you can see the exemple.
+For more information, you can see the [exemple](http://madvic.net/timesheet/).
 
 
 
