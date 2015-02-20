@@ -3,8 +3,16 @@
 Simple PHP class to create HTML time sheets. This is largely inspired by [Timesheet.js](https://sbstjn.github.io/timesheet.js).
 Timesheet.php is licensed under GPLV3 License.
 
-![https://sbstjn.github.io/timesheet.js](https://raw.githubusercontent.com/sbstjn/timesheet.js/master/screen.png)
+![https://madvik.github.io/timesheet.php](https://raw.githubusercontent.com/madvik/timesheet.php/master/screen.png)
 
+## Features
+
+    * Several segment by level
+    * Choose your units
+    * Format the date display
+    * Responsive
+    * Add a line for date of interest
+    
 ## Usage 
 
 You only have to include `sources/class.timesheet.php` and `sources/css/timesheet.css` in your HTML and initialize Timesheet.php with:
