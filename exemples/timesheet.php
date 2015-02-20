@@ -63,6 +63,7 @@
 <p>
 Visualize your data and events with HTML5 and CSS3. Create simple time sheets with PHP. Inspired by <a href="http://semu.github.io/timesheet.js/">Timesheet.js</a> (css forked).
 </p>
+<p>Repository GitHub : <a href="https://github.com/madvik/timesheet.php">https://github.com/madvik/timesheet.php</a></p>
 <p>
     Features
     <ul>
