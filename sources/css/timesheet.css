@@ -1,9 +1,10 @@
 
 .timesheet {
+    letter-spacing:normal;
 	width:100%;
 	height:initial;
 	min-height:100px;
-	margin: 0 auto;
+	margin: 0 auto 20px auto;
 }
 
 .timesheet {
@@ -85,7 +86,7 @@
 
 .timesheet .line section{
 	position:relative;
-	top:5px;
+	top:2px;
 	height:100%;	
 }
 
@@ -94,6 +95,7 @@
 	font-size: 12px;
 	line-height: 5px;
 	left:-5px;
+    top:-8px;
 	position: relative;
 }
 .timesheet .line div{
@@ -274,7 +276,7 @@
 	border-top: 4px solid grey;
 	display:table-cell;
 	font-size: 14px;
-	padding:0px 5px 15px 5px;
+	padding:0 0 15px 0;
 }
 
 .timesheet .mdata li .dates {

@@ -7,11 +7,11 @@ Timesheet.php is licensed under GPLV3 License.
 
 ## Features
 
-    * Several segment by level
-    * Choose your units
-    * Format the date display
-    * Responsive
-    * Add a line for date of interest
+* Several segment by level
+* Choose your units
+* Format the date display
+* Responsive
+* Add a line for date of interest
     
 ## Usage 
 
