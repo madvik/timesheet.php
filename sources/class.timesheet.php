@@ -349,29 +349,34 @@ class timesheet{
 			$displayDate = sprintf( $this->format['segment_des'] , $startdate, $enddate);
 		}
 		else{
+			$startA = $this->get_alpha_title( $segment['start'][0] );
+			$endA = $this->get_alpha_title( $segment['end'][0] );
 
+			// If data is is the same alpha, we don't repeat the information
 			if( !$mobile && $segment['start'][0] == $segment['end'][0] ){
-				$displayDate = $segment['start'][1].' to '. $segment['end'][1];
+				$displayDate = $startA." ".$segment['start'][1].' to '. $segment['end'][1];
 			}
 			else{
-
-				if( array_key_exists( (integer)$segment['start'][0] - $this->alpha_first, $this->alpha) ){
-					$startA = $this->alpha[ (integer)$segment['start'][0] - $this->alpha_first ] ;
-				}
-				else{
-					$startA = $segment['start'][0];
-				}
-				if( array_key_exists( (integer)$segment['end'][0] - $this->alpha_first, $this->alpha) ){
-					$endA = $this->alpha[ (integer)$segment['end'][0] - $this->alpha_first ];
-				}
-				else{
-					$endA = $segment['end'][0];
-				}
 				$displayDate = $startA  .'-'. $segment['start'][1]
 					.' to '. $endA  .'-'. $segment['end'][1];
 			}
 		}
 		return $displayDate;
+	}
+
+	/**
+	* Return the alpha title
+	* @param integer $alphaN The alpha number
+	* @return string $alpha Return the alpha title of a number, unless return the number
+	*/
+	function get_alpha_title($alphaN){
+
+		if( array_key_exists( (integer) $alphaN - $this->alpha_first, $this->alpha) ){
+			return $this->alpha[ (integer) $alphaN - $this->alpha_first ] ;
+		}
+		else{
+			return $alphaN;
+		}
 	}
 
 	/**
