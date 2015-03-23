@@ -67,7 +67,7 @@ Visualize your data and events with HTML5 and CSS3. Create simple time sheets wi
 <p>
     Features
     <ul>
-        <li>Several segment by level</li>
+        <li>Several segment by row</li>
         <li>Choose your units</li>
         <li>Format the date display</li>
         <li>Responsive</li>
